@@ -23,7 +23,7 @@ char *mainmenu_entries[6] = {
 "Enable normal theme-cache",
 "Enable persistent theme-cache",
 "Copy theme-data from extdata to sd",
-"Copy theme-data from sd to extdata"};
+"Copy theme-data to SD"};
 menuent_funcptr mainmenu_entryhandlers[6] = {menu_savedatadat2sd, menu_sd2savedatadat, menu_enablethemecache_normal, menu_enablethemecache_persistent, menu_themecache2sd, menu_sd2themecache};
 
 u8 *filebuffer;
